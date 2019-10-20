@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".ExtendedActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-36dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/option_imgTop"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/image_phone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/ic_launcher_s" />
+
+            <TextView
+                android:id="@+id/option_typeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="@string/type_phone"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/option_imgTop" />
+
+            <TextView
+                android:id="@+id/option_detailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:fontFamily="@font/comfortaa_regular"
+                android:text="@string/detail_phone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/option_typeText" />
+
+            <TextView
+                android:id="@+id/option_FullDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/full_detail"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/option_detailText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailBrand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/brand"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetail"
+                app:layout_constraintTop_toBottomOf="@id/option_detailText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailBrandText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/full_detail"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetailHardware"
+                app:layout_constraintTop_toBottomOf="@id/option_detailText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailDisplay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:text="@string/display"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetail"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailBrandText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailDisplayText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:text="@string/full_detail"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetailHardware"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailBrandText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailHardware"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:text="@string/hardware"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetail"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailDisplayText" />
+
+            <TextView
+                android:id="@+id/option_FullDetailHardwareText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:text="@string/full_detail"
+                app:layout_constraintLeft_toRightOf="@id/option_FullDetailHardware"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailDisplayText" />
+
+            <TextView
+                android:id="@+id/option_Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:textColor="@color/colorCell"
+                android:text="@string/price"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailHardwareText" />
+
+            <TextView
+                android:id="@+id/option_textPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:textColor="@color/colorCell"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:text="@string/phone"
+                app:layout_constraintLeft_toRightOf="@id/option_Price"
+                app:layout_constraintTop_toBottomOf="@id/option_FullDetailHardwareText" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "Xperia 1",
+            "price": "15.000.000",
+            "image": "https:\/\/images.sonymobile.com\/image\/api.sonymobile.com\/files\/01-xperia-1-gallery-product-image-black-00c6125a7bf934e6a16974d3792948e4.png?wid=500",
+            "detail": "Black Color, 128GB ROM, 6GB RAM",
+            "brand": "SONY",
+            "display_size": "6.5\" Display",
+            "display_ratio": "21:9 Aspect Ratio",
+            "display_resolution": "1644x3840 Resolution",
+            "hardware_proc": "Snapdragon 855 Processor",
+            "hardware_camera": "12 MP Camera",
+            "hardware_battery": "3330mAh Battery"
+        },
+        {
+            "id": "2",
+            "type": "Pixel 3 XL",
+            "price": "13.000.000",
+            "image": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/71lpDMLfQXL._SX569_.jpg",
+            "detail": "Just Black Color, 128GB ROM, 4GB RAM",
+            "brand": "Google",
+            "display_size": "6.3\" Display",
+            "display_ratio": "18.5:9 Aspect Ratio",
+            "display_resolution": "1440x2960 Resolution",
+            "hardware_proc": "Snapdragon 845 Processor",
+            "hardware_camera": "12 MP Camera",
+            "hardware_battery": "3430mAh Battery"
+        },
+        {
+            "id": "3",
+            "type": "Galaxy S10+",
+            "price": "23.499.000",
+            "image": "https:\/\/images-na.ssl-images-amazon.com\/images\/I\/61rkyzikWvL._SL1321_.jpg",
+            "detail": "Prism Green Color, 1TB ROM, 12GB RAM",
+            "brand": "Samsung",
+            "display_size": "6.4\" Display",
+            "display_ratio": "19:9 Aspect Ratio",
+            "display_resolution": "1440x3040 Resolution",
+            "hardware_proc": "Exynos 9820 Processor",
+            "hardware_camera": "16 MP Camera",
+            "hardware_battery": "4100mAh Battery"
+        },
+        {
+            "id": "4",
+            "type": "P30 Pro",
+            "price": "14.000.000",
+            "image": "https:\/\/laz-img-sg.alicdn.com\/p\/6b404bef509edc65547e1cb173aabf65.jpg_500x500q100.jpg_.webp",
+            "detail": "Breathing Crystal Color, 512GB ROM, 8GB RAM",
+            "brand": "Huawei",
+            "display_size": "6.47\" Display",
+            "display_ratio": "19.5:9 Aspect Ratio",
+            "display_resolution": "1080x2340 Resolution",
+            "hardware_proc": "Kirin 980 Processor",
+            "hardware_camera": "40 MP Camera",
+            "hardware_battery": "4200mAh Battery"
+        }
+    ],
+    "checkout": [
+        {
+            "id": "1",
+            "name": "Sultan Achmad",
+            "address": "utara mars selatan venus",
+            "phone_number": "+6287739491571",
+            "email": "sultangendut@gmail.com",
+            "payment": "Cash",
+            "type": "Xperia 1"
+        }
+    ]
+}
