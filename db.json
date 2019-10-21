@@ -1,6 +1,5 @@
 {
-    "data": [
-        {
+    "data": [{
             "id": "1",
             "type": "Xperia 1",
             "price": "15.000.000",
@@ -55,17 +54,90 @@
             "hardware_proc": "Kirin 980 Processor",
             "hardware_camera": "40 MP Camera",
             "hardware_battery": "4200mAh Battery"
-        }
-    ],
-    "checkout": [
+        },
         {
-            "id": "1",
-            "name": "Sultan Achmad",
-            "address": "utara mars selatan venus",
-            "phone_number": "+6287739491571",
-            "email": "sultangendut@gmail.com",
-            "payment": "Cash",
-            "type": "Xperia 1"
+            "id": "5",
+            "type": "Mi 9",
+            "price": "8.000.000",
+            "image": "https:\/\/i01.appmifile.com\/webfile\/globalimg\/products\/pc\/mi9\/phone-2-global.png",
+            "detail": "Ocean Blue Color, 256GB ROM, 8GB RAM",
+            "brand": "Xiaomi",
+            "display_size": "6.39\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "1080x2340 Resolution",
+            "hardware_proc": "Snapdragon 855 Processor",
+            "hardware_camera": "48 MP Camera",
+            "hardware_battery": "3300mAh Battery"
+        },
+        {
+            "id": "6",
+            "type": "Zenfone 6 ZS630KL",
+            "price": "9.500.000",
+            "image": "https:\/\/www.asus.com\/media\/global\/products\/E2hS4wNMijODMNuV\/P_end_1000.png",
+            "detail": "Midnight Black Color, 256GB ROM, 8GB RAM",
+            "brand": "Asus",
+            "display_size": "6.4\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "1080x2340 Resolution",
+            "hardware_proc": "Snapdragon 855 Processor",
+            "hardware_camera": "48 MP Camera",
+            "hardware_battery": "5000mAh Battery"
+        },
+        {
+            "id": "7",
+            "type": "OnePlus 7 Pro",
+            "price": "14.200.000",
+            "image": "https:\/\/cdn2.gsmarena.com\/vv\/pics\/oneplus\/oneplus-7-pro-5.jpg",
+            "detail": "Almond Color, 256GB ROM, 12GB RAM",
+            "brand": "OnePlus",
+            "display_size": "6.67\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "1440x3120 Resolution",
+            "hardware_proc": "Snapdragon 855 Processor",
+            "hardware_camera": "48 MP Camera",
+            "hardware_battery": "4000mAh Battery"
+        },
+        {
+            "id": "8",
+            "type": "iPhone Xr",
+            "price": "14.700.000",
+            "image": "https:\/\/store.storeimages.cdn-apple.com\/4982\/as-images.apple.com\/is\/image\/AppleInc\/aos\/published\/images\/i\/ph\/iphone\/xr\/iphone-xr-red-select-201809?wid=470&amp;hei=556&amp;fmt=png-alpha&amp;.v=1551226038669",
+            "detail": "(PRODUCT)RED™ Color, 256GB ROM, 3GB RAM",
+            "brand": "Apple",
+            "display_size": "6.1\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "828x1792 Resolution",
+            "hardware_proc": "Apple A12 Bionic Processor",
+            "hardware_camera": "12 MP Camera",
+            "hardware_battery": "2942mAh Battery"
+        },
+        {
+            "id": "9",
+            "type": "iPhone Xs",
+            "price": "20.100.000",
+            "image": "https:\/\/store.storeimages.cdn-apple.com\/4982\/as-images.apple.com\/is\/image\/AppleInc\/aos\/published\/images\/i\/ph\/iphone\/xs\/iphone-xs-space-select-2018?wid=940&amp;hei=1112&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1550795411619",
+            "detail": "Space Grey Color, 256GB ROM, 4GB RAM",
+            "brand": "Apple",
+            "display_size": "5.8\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "1125x2436 Resolution",
+            "hardware_proc": "Apple A12 Bionic Processor",
+            "hardware_camera": "12 MP Camera",
+            "hardware_battery": "2658mAh Battery"
+        },
+        {
+            "id": "10",
+            "type": "iPhone Xs Max",
+            "price": "26.200.000",
+            "image": "https:\/\/store.storeimages.cdn-apple.com\/4982\/as-images.apple.com\/is\/image\/AppleInc\/aos\/published\/images\/i\/ph\/iphone\/xs\/iphone-xs-gold-select-2018?wid=940&amp;hei=1112&amp;fmt=png-alpha&amp;qlt=80&amp;.v=1550795410474",
+            "detail": "Gold Color, 512GB ROM, 4 GB RAM",
+            "brand": "Apple",
+            "display_size": "6.5\" Display",
+            "display_ratio": "19.5:9 Aspect Ration",
+            "display_resolution": "1242x2688 Resolution",
+            "hardware_proc": "Apple A12 Bionic Processor",
+            "hardware_camera": "12 MP Camera",
+            "hardware_battery": "3174mAh Battery"
         }
     ]
 }
