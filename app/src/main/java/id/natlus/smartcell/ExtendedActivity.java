@@ -2,20 +2,14 @@ package id.natlus.smartcell;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Patterns;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
-import id.natlus.smartcell.db.CheckoutEntity;
 import id.natlus.smartcell.db.PhoneEntity;
 
 public class ExtendedActivity extends AppCompatActivity {
